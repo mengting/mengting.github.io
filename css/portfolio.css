@@ -1,0 +1,167 @@
+.container {
+  
+}
+
+/* Carousel base class */
+.carousel {
+
+}
+
+
+/* Declare heights because of positioning of img element */
+.carousel-inner > .item > img {
+  top: 0;
+	margin-left: auto;
+	margin-right: auto;
+ 	min-width: auto;
+	max-height:100%;
+}
+
+
+.desc .title{
+	font-size: 110%;
+	font-weight: bold;
+}
+
+.desc>a{
+	background-color:transparent;
+	padding:0;
+}
+
+.desc>a:hover{
+	background-color:transparent;
+	opacity:0.8;
+}
+
+.project0 {
+	background-color:#6b0000;
+	color:#efefef;
+	padding-top:130px;
+}
+
+.project0 .carousel .item {
+  background-color: #000;
+}
+
+.project0 .desc>a{
+	color:#efefef;
+	border-color:#eFeFef;
+}
+
+.project0 .col-md-3{
+	position: relative;
+	margin-top:80px;
+	margin-bottom:10px;
+	left:1%;
+}
+
+.project1 {
+	background-color:#000000;
+	color:#efefef;
+	padding-top:130px;
+}
+
+.project1 .carousel .item {
+  background-color: #000;
+}
+
+.project1 .desc>a{
+	color:#efefef;
+	border-color:#eFeFef;
+}
+
+.project1 .col-md-3{
+	position: relative;
+	margin-top:80px;
+	margin-bottom:10px;
+	left:1%;
+}
+
+
+.project2 {
+	background-color:#087b5c;
+	padding-top:130px;
+	color:#efefef;
+}
+
+.project2 .carousel .item {
+  background-color: #23a17f;
+}
+
+.project2 .desc>a{
+	color:#efefef;
+	border-color:#eFeFef;
+}
+
+.project2 .col-md-3{
+	position: relative;
+	margin-top:80px;
+	margin-bottom:10px;
+	left:1%;
+}
+
+.project3 {
+	background-color:#bc6c2b;
+	padding-top:130px;
+	color:#efefef;
+}
+
+.project3 .carousel .item {
+  background-color: #bc6c2b;
+}
+
+.project3 .desc>a{
+	color:#efefef;
+	border-color:#eFeFef;
+}
+
+.project3 .col-md-3{
+	position: relative;
+	margin-top:80px;
+	margin-bottom:10px;
+	left:1%;
+}
+
+.project4 {
+	background-color:#cdad55;
+	padding-top:130px;
+	color:#2E2E2E;
+}
+
+.project4 .carousel .item {
+  background-color: #cdad55;
+}
+
+.project4 .desc>a{
+	color:#2E2E2E;
+	border-color:#2E2E2E;
+}
+
+.project4 .col-md-3{
+	position: relative;
+	margin-top:80px;
+	margin-bottom:10px;
+	left:1%;
+}
+
+.project5 {
+	background-color:#b3b2b2;
+	padding-top:130px;
+	color:#2E2E2E;
+}
+
+.project5 .carousel .item {
+  background-color: #b3b2b2;
+}
+
+.project5 .desc>a{
+	color:#2E2E2E;
+	border-color:#2E2E2E;
+}
+
+.project5 .col-md-3{
+	position: relative;
+	margin-top:80px;
+	margin-bottom:10px;
+	left:1%;
+}

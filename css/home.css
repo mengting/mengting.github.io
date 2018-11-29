@@ -1,0 +1,334 @@
+.jumbotron{
+  height:460px;
+	margin-top:50px;
+	margin-bottom:0px;
+	padding:0;
+	background-image:url("../images/home.jpg");
+	background-position:center center;
+	background-size: cover;
+	overflow:hidden;
+}
+
+.jumbotron .container{
+  height:100%;
+}
+
+.jumbotron .container .row{
+	height:100%;
+	
+	position:relative;
+}
+
+.jumbotron .container .row .name{
+	position: absolute;
+	right:0;
+	bottom:5px;
+}
+
+.jumbotron .container .row .name>h1{
+	margin:0px;
+	line-height:75%;
+	color:rgba(255, 255, 255, 0.7);
+	font-size:250%;
+}
+
+.jumbotron .container .row .section{
+  margin:10px;
+	top:15px;
+	padding:1px;
+	width:450px;
+	position:relative;
+	color:#424242;
+	background-color: rgba(255, 255, 255, 0.5);
+	border-radius: 10px/10px;
+}
+
+
+.jumbotron .container .row .section .btn{
+	position: absolute;
+	color:#424242;
+	border-color:#424242;
+  background-color:transparent;
+	padding:3px;
+	left:10px;
+}
+
+.jumbotron .container .row .section>a:hover{
+	opacity:0.6;
+}
+
+.jumbotron .container .row .section>h1{
+  font-size:500%;
+}
+
+.jumbotron .container .row .section>h2{
+  font-size:400%;
+}
+
+.jumbotron .container .row .section>h3{
+  font-size:350%;
+}
+
+.jumbotron .container .row .section >h4{
+  font-size:300%;
+}
+
+.menu {
+	margin-top:0;
+	height:5%;
+	background-color:#ffffff;
+}
+
+.menu .container{
+	margin-top:10;
+	height:100%;
+  color:#ffffff;
+	background-color:#ffffff;
+}
+
+.menu .container >span{
+	padding:2px;
+	background-color:#FF8000;
+}
+
+.project1 {
+	background-color:#ffffff;
+}
+
+.project1 .container .row {
+	margin-top:30px;
+	margin-bottom:25px;
+}
+
+.project1 .container .row .col-md-7{
+	margin-top:50px;
+}
+
+.project1 .container .row .col-md-1{
+	margin-top:80px;
+}
+
+.project1 .container .row .col-md-1 .nextbutton>a{
+	color:#CECECE;
+	font-size:400%;
+	opacity:0.5;
+}
+
+.project1 .container .row .col-md-1 .nextbutton>a:hover{
+	color:#FF8000;
+	text-decoration: none;
+	font-size:400%;
+	opacity:0.5;
+}
+
+
+.project2 {
+	background-color:#E6E6E6;
+}
+
+.project2 .container .row {
+	margin-top:30px;
+	margin-bottom:25px;
+}
+
+.project2 .container .row .col-md-7{
+	margin-top:50px;
+}
+
+.project2 .container .row .col-md-4>img {
+	width:100%;
+}
+
+.project2 .container .row .col-md-1 {
+	margin-top:80px;
+}
+
+.project2 .container .row .col-md-1 .nextbutton>a{
+	color:#CECECE;
+	font-size:400%;
+	opacity:0.5;
+}
+
+.project2 .container .row .col-md-1 .nextbutton>a:hover{
+	color:#FF8000;
+	text-decoration: none;
+	font-size:400%;
+	opacity:0.5;
+}
+
+.menu2 {
+	margin-top:0;
+	height:5%;
+	background-color:#1C1C1C;
+}
+
+.menu2 .container{
+	margin-top:10;
+	height:100%;
+  color:#ffffff;
+	background-color:#1C1C1C;
+}
+
+.menu2 .container >span{
+	padding:2px;
+	background-color:#FF8000;
+}
+
+.site {
+	background-color:#1C1C1C;
+}
+
+.site .container {
+
+	background-color:#1C1C1C;
+}
+
+.site .container .row {
+	margin-top:25px;
+	margin-bottom:25px;
+}
+
+.site .container .row .col-md-3 {
+	margin-bottom:15px;
+	padding-left:15px;
+	padding-right:15px;
+}
+
+.site .container .row .col-md-3>img {
+	width:100%;
+}
+
+/*-----------flip box------*/
+
+.thumb {
+	display:block;
+	width:100%;
+	height:500px;
+}
+
+.thumb-wrapper {
+	display:block;
+	width:100%;
+	height:100%;
+}
+
+.thumb img {
+	width:100%;
+	height:100%;
+	position:absolute;
+	display:block;			
+}
+
+#about{
+	background:#60c194;	
+	
+}
+
+#portfolio{
+	background:#18a2b7;	
+	
+}
+
+#publication{
+	background:#e58b32;	
+}
+
+#contact{
+	background:#f06183;
+}
+
+.thumb .thumb-detail {
+		display:block;
+		width:100%;
+		height:100%;
+		position:absolute;				
+		color:#fff;	
+}
+
+.thumb .thumb-detail a {
+	display:block;
+	width:100%;
+	text-transform:uppercase;
+	font-weight:bold;	
+	color:#fff;
+	text-decoration:none;		
+	padding:10px;	
+	margin-top:100%;
+	font-size:18px;
+}	
+
+.thumb .thumb-detail a:hover {
+	opacity:0.6;
+}
+		
+.thumb .thumb-detail >a>p {
+	display:block;
+	width:100%;
+	height:100%;
+	text-transform:lowercase;
+	color:#fff;
+	text-decoration:none;		
+	font-size:12px;
+}
+/*
+* Without CSS3 Scroll Up Effect
+*/
+.thumb.scroll {
+	overflow: hidden;
+}	
+
+.thumb.scroll .thumb-detail {
+	bottom:-280px;
+}
+
+	/*
+	* CSS3 Flip
+	*/	
+	.thumb.flip {
+		-webkit-perspective:800px;		
+		   -moz-perspective:800px;
+		    -ms-perspective:800px;		   		
+		     -o-perspective:800px;
+  		        perspective:800px;
+	}
+	
+		.thumb.flip .thumb-wrapper {
+			-webkit-transition: -webkit-transform 1s;
+			   -moz-transition: -moz-transform 1s;
+			    -ms-transition: -moz-transform 1s;
+			     -o-transition: -moz-transform 1s;
+			        transition: -moz-transform 1s;
+			-webkit-transform-style: preserve-3d;
+			   -moz-transform-style: preserve-3d;			
+			    -ms-transform-style: preserve-3d;			
+			     -o-transform-style: preserve-3d;			
+					  transform-style: preserve-3d;			
+		}
+		
+		.thumb.flip .thumb-detail {
+			-webkit-transform: rotateY(-180deg);
+			   -moz-transform: rotateY(-180deg);
+			    -ms-transform: rotateY(-180deg);
+			     -o-transform: rotateY(-180deg);
+			        transform: rotateY(-180deg);			   			
+		}
+		
+		.thumb.flip img,
+		.thumb.flip .thumb-detail {
+			-webkit-backface-visibility: hidden;
+			   -moz-backface-visibility: hidden;
+			    -ms-backface-visibility: hidden;
+			     -o-backface-visibility: hidden;
+			        backface-visibility: hidden;
+		}
+		
+		.thumb.flip .flipIt {
+			-webkit-transform: rotateY(-180deg);
+			   -moz-transform: rotateY(-180deg);			
+			    -ms-transform: rotateY(-180deg);			
+			     -o-transform: rotateY(-180deg);			
+			        transform: rotateY(-180deg);			
+		}
+
+
+
